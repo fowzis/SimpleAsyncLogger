@@ -43,6 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LogAppenderBase.cs" />
+    <Compile Include="LogAppenderDB.cs" />
+    <Compile Include="LogAppenderTXTFile.cs" />
+    <Compile Include="Logger.cs" />
+    <Compile Include="LoggerUtils.cs" />
+    <Compile Include="LogMsgFormatFactory.cs" />
+    <Compile Include="LogSettings.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
